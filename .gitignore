@@ -1,3 +1,4 @@
+
 # Compiled class file
 *.class
 
@@ -19,6 +20,42 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# virtual machine crash logs
 hs_err_pid*
 replay_pid*
+
+
+# Visual Studio Code 관련
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# 로컬 히스토리 (VS Code Extension)
+.history/
+*.vsix
+
+# Unity 및 C# 프로젝트 임시 파일 (OmniSharp/IntelliSense)
+*.csproj
+*.sln
+*.swp
+*.swo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.suo
+*.cache
+*.obj
+
+# 운영체제 임시 파일
+.DS_Store
+Thumbs.db
+
+# Unity 빌드 결과물 및 라이브러리 (필요 시 추가)
+# Library/
+# Temp/
+# Obj/
+# Build/
